@@ -1,0 +1,134 @@
+.lpBody{
+	.mv{
+		width: 100%;
+		height: 100vh;
+		height: 100svh;
+		position: sticky;
+		top: 0;
+		.mvImage{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			width: 100%;
+			height: 100vh;
+			height: 100svh;
+			img{
+				width: 100%;
+				height: 100vh;
+				object-fit:cover;
+				object-position:center top;
+			}
+		}
+		.mvText{
+			color: #FFF;
+			position: relative;
+			z-index:10;
+			display: flex;
+			width: 100%;
+			height: 100%;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			.mvText-catch{
+				font-family: $mincho;
+				writing-mode: vertical-rl;
+				font-size: 64 * $vp;
+				margin-bottom: 30 * $vp;
+				text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+				letter-spacing: 10 * $vp;
+			}
+		}
+	}
+	.sv{
+		width: 100%;
+		height: 50vh;
+		position: sticky;
+		top: 0;
+		img{
+			width: 100%;
+			height: 50vh;
+			object-fit:cover;
+		}
+	}
+	.about{
+		background: #FFF;
+		text-align: center;
+		h3{
+			text-align: center;
+			font-size: 36 * $vp;
+			line-height: 1.3;
+			margin-bottom: 60 * $vp;
+			font-family: $mincho;
+		}
+		p{
+			margin-bottom: 60 * $vp;
+			font-size: 24 * $vp;
+		}
+	}
+	.concept{
+		background: #B38374;
+		color: #fff;
+		text-align: center;
+		h3{
+			font-size: 36 * $vp;
+			font-family: $mincho;
+			margin-bottom: 60 * $vp;
+		}
+		p{
+			font-size: 24 * $vp;
+			margin-bottom: 40 * $vp;
+		}
+	}
+	.product{
+		background: #6fa9bb;
+		color: #fff;
+		text-align: center;
+		h3{
+			font-size: 36 * $vp;
+			font-family: $mincho;
+			margin-bottom: 60 * $vp;
+		}
+		p{
+			margin-bottom: 40 * $vp;
+			text-align: center;
+			font-size: 21 * $vp;
+		}
+	}
+}
+.sectionBlock{
+	width: 100%;
+	top: 0;
+	padding: 100 * $vp 0;
+	position: relative;
+	z-index:10;
+}
+.commonTtl{
+	text-align: center;
+	position: relative;
+	font-family: $mincho;
+	font-size: 48 * $vp;
+	margin-bottom: 80 * $vp;
+	i{
+		position: relative;
+		z-index:10;
+	}
+	span{
+		color: #efefef;
+		font-size: 180 * $vp;
+		position: absolute;
+		top: -40 * $vp;
+		right: 80 * $vp;
+		margin: auto;
+		&:before{
+			content:'−';
+		}
+	}
+}
+.container{
+	max-width: 1314 * $vp;
+	padding: 0 20 * $vp;
+	margin: 0 auto;
+}
