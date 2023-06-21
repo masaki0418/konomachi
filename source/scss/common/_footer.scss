@@ -1,3 +1,36 @@
-footer {
-	background: #f00;
+.commonFooter {
+	background: #333;
+	.footerThanks{
+		background:#fff;
+		padding: 80 * $vp 0;
+		.thanks-list{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap:wrap;
+			margin: -10 * $vp;
+			li{
+				width: calc(100% / 4 - #{20 * $vp});
+				margin: 10 * $vp;
+			}
+			a{
+				width: 100%;
+				height: 75 * $vp;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10 * $vp 15 * $vp;
+				border: 1px solid #000;
+				img{
+					
+				}
+			}
+		}
+	}
+	.footerBody{
+		padding: 80 * $vp 0;
+		.container{
+			display: flex;
+		}
+	}
 }

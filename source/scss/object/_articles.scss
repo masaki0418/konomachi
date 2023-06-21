@@ -116,14 +116,20 @@
 		z-index:10;
 	}
 	span{
-		color: #efefef;
-		font-size: 180 * $vp;
-		position: absolute;
-		top: -40 * $vp;
-		right: 80 * $vp;
-		margin: auto;
+		font-size: 32 * $vp;
+		display: flex;
+		opacity:.7;
+		align-items: center;
+		justify-content: center;
+		margin-top: 40 * $vp;
+		letter-spacing:5 * $vp;
 		&:before{
 			content:'−';
+			margin-right: 1em;
+		}
+		&:after{
+			content:'−';
+			margin-left: 1em;
 		}
 	}
 }
