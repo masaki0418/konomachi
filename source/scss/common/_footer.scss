@@ -29,8 +29,19 @@
 	}
 	.footerBody{
 		padding: 80 * $vp 0;
+		text-align: center;
+		color: #fff;
 		.container{
 			display: flex;
+			flex-direction:column;
+			justify-content: center;
 		}
+	}
+	.copy{
+		margin-top: 60 * $vp;
+		text-align: center;
+		font-size: 11 * $vp;
+		color: #fff;
+		letter-spacing: 1px;
 	}
 }

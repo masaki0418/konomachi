@@ -88,12 +88,12 @@ strong{
 p{
 	line-height: 1.8;
 }
-.pc_br{
+.only-pc{
 	@include mediaquery-md {
 		display: none;
 	}
 }
-.sp_br{
+.only-sp{
 	display: none;
 	@include mediaquery-md {
 		display: block;
